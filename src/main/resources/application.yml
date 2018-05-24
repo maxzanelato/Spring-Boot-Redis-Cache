@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 'postgres'
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/redis-cache-demo-db
+    username: postgres
+  jpa:
+    generate-ddl: true  
